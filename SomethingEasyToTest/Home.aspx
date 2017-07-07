@@ -9,13 +9,15 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
             <br />
             bez funkcije tbx<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <br />
             bez funkcije tbx2<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <br />
-            khkukuzkuz</div>
+            <br />
+            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        </div>
     </form>
 </body>
 </html>
