@@ -15,7 +15,9 @@
             <br />
             bez funkcije tbx2<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <br />
-            khkukuzkuz</div>
+            <br />
+            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        </div>
     </form>
 </body>
 </html>
