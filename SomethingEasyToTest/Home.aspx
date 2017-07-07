@@ -18,11 +18,6 @@
             <br />
             <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
             <br />
-            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True">
-        <asp:ListItem>For 1 day</asp:ListItem>
-        <asp:ListItem>For 1 month</asp:ListItem>
-        <asp:ListItem>For a year</asp:ListItem>
-    </asp:DropDownList>
     
         </div>
     </form>
